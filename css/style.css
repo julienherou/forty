@@ -93,7 +93,7 @@ header{
     align-items: center;
     letter-spacing: .4rem;
     font-weight: 600;
-    padding: 2rem 0;
+    padding: 2rem;
     z-index: 90;
 }
 
@@ -102,7 +102,6 @@ header{
 .headerGauche{
     display: flex;
     align-items: center;
-    margin-left: 2rem;
 }
 
 .headerGauche p{
@@ -133,7 +132,6 @@ header{
 .headerDroit{
     display: flex;
     align-items: center;
-    margin-right: 2rem;
 }
 
 .menu{
@@ -189,13 +187,11 @@ header{
 
 
 .burger{
-    width: 9.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    /* right: 2.5rem; */
-    z-index: 100;
+    z-index: 1000;
 }
 
 .burger .bar{
@@ -204,7 +200,6 @@ header{
     width: 100%;
     height: .2rem;
     background-color: #fff;
-    
 }
 
 
@@ -216,36 +211,24 @@ header{
     background-color: #fff;
     transition: all .3s;
 }
-
-
-
-
-
 .burger .bar::before{
     transform: translateY(-0.6rem)
 }
-
 .burger .bar::after{
     transform: translateY(.6rem);
 }
-
-
 #burger-toggle:checked ~ .nav-list{
     transform: none;
 }
-
 #burger-toggle:checked ~ .burger .bar::before{
     transform: rotate(45deg);
 }
-
 #burger-toggle:checked ~ .burger .bar::after{
     transform: rotate(-45deg);
 }
-
 #burger-toggle:checked ~ .burger .bar{
     background-color: transparent;
 }
-
 #burger-toggle{
     display: none;
 }
