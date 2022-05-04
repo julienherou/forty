@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TP12 Forty">
+    <meta name="author" content="Julien Herou">
+    <title>TP12 Forty</title>
+    <!-- Google Font Source Sans Pro -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- liens vers CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div id="accueil">
+            <!-- HEADER -->
+            <header>
+                <div class="headerGauche">
+                    <div class="logo">
+                        <a href="#">FORTY</a>
+                    </div>
+                    <p>BY HTML5 UP</p>
+                </div>
+                <nav class="headerDroit"> 
+                    <!-- <a class="menu" href="#">MENU</a> -->
+                    <input type="checkbox" id="burger-toggle">
+                    <label for="burger-toggle" class="burger">
+                        <span class="menu">MENU</span>
+                        <span class="bar"></span>
+                    </label>
+                    <ul class="nav-list">
+                        <li><a class="nav-list-links" href="#accueil">Accueil</a></li>
+                        <li><a class="nav-list-links" href="#gallery">Portfolio</a></li>
+                        <li><a class="nav-list-links" href="#article">A propos</a></li>
+                        <li><a class="nav-list-links" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- ACCUEIL -->
+            <div class="texteAccueil">
+                <h1>Hi, my name is Forty</h1>
+                <div class="line1"></div>
+                <div class="texteDessous">
+                    <p class="texteDessous-g">A responsive site template designed by HTML5 up<br>and released under the creative commons.</p>
+                    <div class="button buttonAccueil">
+                        <a href="#">
+                            <p>GET&nbsp;STARTED</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MAIN -->
+        <main>
+            <!-- GALLERY -->
+            <section id="gallery">
+                <div class="blocPhoto aliquam">
+                    <a href="#"><img src="img/pic01.jpg" alt="Aliquam"></a>
+                    <div class="textePhoto">
+                        <h2>Aliquam</h2>
+                        <div class="line2"></div>
+                        <p>IPSUM DOLOR SIT AMET</p>
+                    </div>
+                </div>
+                <div class="blocPhoto tempus">
+                    <a href="#"><img src="img/pic02.jpg" alt="Tempus"></a>
+                    <div class="textePhoto">
+                        <h2>Tempus</h2>
+                        <div class="line2"></div>
+                        <p>FEUGIAT AMET TEMPUS</p>
+                    </div>
+                </div>
+                <div class="blocPhoto magna">
+                    <a href="#"><img src="img/pic03.jpg" alt="Magna"></a>
+                    <div class="textePhoto">
+                        <h2>Magna</h2>
+                        <div class="line2"></div>
+                        <p>LOREM ETIAM NULLAM</p>
+                    </div>
+                </div>
+                <div class="blocPhoto ipsum">
+                    <a href="#"><img src="img/pic04.jpg" alt="Ipsum"></a>
+                    <div class="textePhoto">
+                        <h2>Ipsum</h2>
+                        <div class="line2"></div>
+                        <p>NISL SED ALIQUAM</p>
+                    </div>
+                </div>
+                <div class="blocPhoto consequat">
+                    <a href="#"><img src="img/pic05.jpg" alt="Consequat"></a>
+                    <div class="textePhoto">
+                        <h2>Consequat</h2>
+                        <div class="line2"></div>
+                        <p>IPSUM DOLOR SIT AMET</p>
+                    </div>
+                </div> 
+                <div class="blocPhoto etiam">
+                    <a href="#"><img src="img/pic06.jpg" alt="Etiam"></a>
+                    <div class="textePhoto">
+                        <h2>Etiam</h2>
+                        <div class="line2"></div>
+                        <p>FEUGIAT AMET TEMPUS</p>
+                    </div>
+                </div>
+            </section>
+            <!-- ARTICLE -->
+            <article id="article">
+                <div class="blocArticle">
+                    <h2>Massa libero</h2>
+                    <div class="line3"></div>
+                    <p class="texteArticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eligendi unde mollitia qui repudiandae sit officiis eos error nesciunt ex laudantium, iusto ipsam debitis perspiciatis! Corrupti distinctio quas, aliquam rem adipisci odit libero consectetur mollitia voluptas! Sequi facilis architecto, pariatur sit minus nostrum ad debitis accusamus placeat fugit ex dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus esse tempora fugiat.</p>
+                    <div class="button buttonArticle">
+                        <a href="#">
+                            <p>GET&nbsp;STARTED</p>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <!-- CONTACT -->
+            <section id="contact">
+                <!-- FORMULAIRE -->
+                <div id="formulaire">
+                    <form action="destination.php">
+                        <div class="form-header">
+                            <div class="form-name">
+                                <label for="nom">NAME</label><br>
+                                <input type="text" name="nom" id="nom">
+                            </div>
+                            <p class="form-email">
+                                <label for="email">EMAIL</label><br>
+                                <input type="email" name="email" id="email">
+                            </p>
+                        </div>
+                        <p class="form-message">
+                            <label for="message">MESSAGE</label><br>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </p>
+                        <p class="form-button">
+                            <input class="form-button-send" type="submit" value="SEND MESSAGE">
+                            <input class="form-button-clear" type="reset" value="CLEAR">
+                        </p>
+                    </form>
+                </div>
+                <!-- PERSO -->
+                <div class="info">
+                    <div class="contourInfo">
+                        <div class="blocInfo">
+                            <div class="contourIcon">
+                                <a href=""><i class="fas fa-envelope"></i></a>
+                            </div>
+                            <div class="texteInfo">
+                                <a class="icon-texte" href="#"><h3>Email</h3></a>
+                                <a class="icon-soustexte lien-email" href="#">information@untitled.tld</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contourInfo">
+                        <div class="blocInfo">
+                            <div class="contourIcon">
+                                <a href=""><i class="fas fa-phone"></i></a>
+                            </div>
+                            <div class="texteInfo">
+                                <a class="icon-texte" href="#"><h3>Phone</h3></a>
+                                <a class="icon-soustexte" href="#">(000) 000-0000 x12387</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contourInfo">
+                        <div class="blocInfo">
+                            <div class="contourIcon">
+                                <a href=""><i class="fas fa-home"></i></a>
+                            </div>
+                            <div class="texteInfo">
+                                <a class="icon-texte" href="#"><h3>Address</h3></a>
+                                <a class="icon-soustexte" href="#">1234 Somewhere Road #5432<br>Nashville, TN 00000<br>United States of America</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="blocFooter">
+                <ul>
+                    <li class="social"><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li class="social"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social"><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li class="social"><a href=""><i class="fab fa-github"></i></a></li>
+                    <li class="social"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+                <p>&copy; Untitled&emsp;|&emsp;Design: <a href="#">HTML5&nbsp;UP</a>&emsp;|&emsp;Demo images: <a href="#">Unsplash</a></p>
+            </div>
+        </footer>
+    </div>
+    <!-- fontawesome-->
+    <script src="https://kit.fontawesome.com/356557ec3b.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+/* Media Queries*/
+
+
+
+/* Pour les écrans en dessous de 400px (petit mobile) */
+@media only screen and (max-width: 400px){
+    .headerGauche p{
+        display: none;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .texteDessous-g{
+        font-size: .7rem;
+    }
+    :root{
+        --margin: 3rem;
+    }
+
+    h2{ 
+        font-size: 3rem;
+    }
+    
+    .textePhoto p{
+        font-size: 1rem;
+    }
+
+    .blocArticle h2{
+        font-size: 3rem;
+    }
+
+}
+
+
+
+
+/* Pour les écrans au dessus de 576px*/
+@media only screen and (min-width:576px){
+
+    #gallery{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .blocPhoto{
+        width: 50%;
+    }
+}
+
+
+/* Pour les écrans au dessus de 768px*/
+@media only screen and (min-width:768px){
+    .nav-list li a{
+        font-size: 7rem;
+    }
+    .texteDessous{
+        flex-direction: row;
+    }
+    .buttonAccueil{
+        margin-left: 3rem;
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+    }
+    #formulaire{
+        width: 60%;
+    }
+    .info{
+        width: 40%;
+    }
+    .blocInfo{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+
+
+
+/* Pour les écrans au dessus de 1024px (ordis tailles normales) */
+@media only screen and (min-width:1024px){
+    .logo{
+        font-size: 2rem;
+    }
+    .headerGauche p{
+        font-size: 2rem;
+    }
+    .menu{
+        font-size: 2rem;
+    }
+
+    .burger{
+        width: 11rem;
+    }
+
+    .texteAccueil{
+        height: 30rem;
+    }
+    h1{
+        font-size: 7rem;
+        line-height: 5rem;
+    }
+
+    .texteDessous{
+        align-items: center;
+    }
+    
+    .texteDessous-g{
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+        margin-right: 4rem;
+    }
+    .blocPhoto{
+        height: 60rem;
+    }
+
+    .aliquam{
+        width: 40%;
+    }
+    .tempus{
+        width: 60%;
+    }
+    .magna{
+        width: 60%;
+    }
+    .ipsum{
+        width: 40%;
+    }
+    .consequat{
+        width: 40%;
+    }
+    .etiam{
+        width: 60%;
+    }
+
+    .form-header{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .form-name, .form-email{
+        width: 48%;
+    }
+
+}
+
+
+
+
+/* Pour les écrans au dessus de 1920px */
+@media only screen and (min-width:1920px){
+    h1{
+        font-size: 8rem;
+        line-height: 9rem;
+    }
+    .texteDessous-g{
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
+    .button{
+        background-position-x: 19rem;
+        background-size: 4rem;    
+    }
+    .button a{
+        width: 25rem;
+        height: 6rem;
+        padding-left: 3rem;
+    }
+    .button p{
+        font-size: 1.8rem;
+    }
+
+    .blocInfo{
+        padding: 6rem 0;
+    }
+
+    #message{
+        height: 30rem;
+    }
+
+
+    button, input, select, label, textarea {
+        font-size: 1.8rem;
+        letter-spacing: .2rem;
+        font-weight: 600;
+        line-height: 1.4rem;
+    }
+
+    .form-button-send{
+        width: 25rem;
+        height: 6rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .form-button-clear{
+        width: 15rem;
+        height: 6rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .contourIcon a{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .contourIcon a i{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+
+    h3{
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    .icon-soustexte{
+        font-size: 1.6rem;
+    }
+
+
+
+    .social{
+        margin-right: 3rem;
+    }
+
+    .social a{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .social a i{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .blocFooter p{
+        font-size: 1.6rem;
+    }
+
+    :root{
+        --margin: 15rem;
+    }
+
+}
+
+
+/* Pour les écrans au dessus de 2100px */
+@media only screen and (min-width:2100px){
+    .blocPhoto a{
+        width: 100%;
+    }
+    
+    .blocPhoto img{
+        width: 100%;
+    }
+}
+
+
+
+
+/* Pour les écrans au dessus de 2560px */
+@media only screen and (min-width:2560px){
+
+    .texteAccueil{
+        height: 40rem;
+    }
+
+    h1{
+        font-size: 12rem;
+        line-height: 12rem;
+    }
+    .texteDessous-g{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    :root{
+        --margin: 20rem;
+    }
+}
